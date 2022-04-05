@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- xml은 설정파일 -->
+	<!-- bean 객체 설정 -->
+	<!-- MessageBeanEn messageBean = new MessageBeanEn(); 와 같은 설정 
+		id = 변수명, class = 클래스명, 설정인거지 실제 객체 생성이 아니다 -->
+	<!-- 
+	<bean id="messageBean" class="sample4.MessageBeanEn"/> 
+	-->
+	<bean id="messageBean" class="sample4.MessageBeanKr" />
+</beans>
